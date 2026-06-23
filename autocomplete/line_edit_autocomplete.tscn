@@ -1,15 +1,15 @@
-[gd_scene format=3]
+[gd_scene format=3 uid="uid://dbqt8f4a1l42b"]
 
 [ext_resource type="Script" uid="uid://dakim1y4j3ka5" path="res://addons/diablohumastudio_framework/custom_components/autocomplete/line_edit_autocomplete.gd" id="1"]
 
-[node name="LineEditAutocomplete" type="Control"]
+[node name="LineEditAutocomplete" type="Control" unique_id=1913613764]
 custom_minimum_size = Vector2(200, 0)
 layout_mode = 3
 anchors_preset = 0
 size_flags_horizontal = 3
 script = ExtResource("1")
 
-[node name="LineEdit" type="LineEdit" parent="."]
+[node name="LineEdit" type="LineEdit" parent="." unique_id=565887819]
 unique_name_in_owner = true
 layout_mode = 0
 anchor_right = 1.0
